@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.html{
+    font-size: 10px;
+}
+body{
+    height: 100vh;
+    padding: 0px 60px;
+}
+.header-content{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+  
+    display: flex;
+    align-items: center;
+}
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 4rem ;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    padding: 10px 60px;
+    text-decoration-line: none;
+}
+.navbar ul li a{
+    text-decoration-line: none;
+}
+.navbar ul li:last-child{
+    padding: 7px 30px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.Hero-section{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.Hero-section img {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Cover the full width of the parent div */
+    height: 100%; /* Cover the full height of the parent div */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    z-index: -1; /* Send the image behind the text */
+}
+.heroContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+}
+.heroContainer h2,p,input{
+    margin: 25px;
+    width: 60%;
+}
+.heroContainer p{
+    font-size: 1.5rem;
+    width: 55%; 
+}
+.heroContainer h2{
+    font-size: 50px;
+}
+.heroContainer input{
+    height: 5%;
+    width: 30%;
+}
+.countries h2{
+    width: 55%;
+    height: %;
+    margin-left: 20REM;
+    margin-top: 6REM;
+    margin-bottom: 6REM;
+    /*padding: 50px 400px;*/
+    font-size: 3.8REM;
+}
+.Row {
+    height: 100%;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5%;
+    background-position: cover;
+    z-index: -1;
+    gap: 1rem;
+}
+.texts {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 13.7REM;
+    margin-bottom: 18rem;
+    margin-left: 6rem;
+}
+/* SECTION RECENTLY ADDED */
+.recent{
+    width: 87%;
+    padding: 6%;
+}
+.head-recent {
+    display: flex;
+    gap: 900px;
+    padding: 30px 0px;
+}
+.head-recent a {
+    color: #1DAEFF;
+    text-decoration-line: none;
+    font-weight: 900;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-card{
+    width: 40%;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+.first-card .img{
+    padding: 20px;
+}
+.info-container{
+    padding: 20px 20px 20px 0px;
+}
+.info-container h3{
+    font-size: 1.7em;
+}
+.house-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 17px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+}
+.btn h5{
+    font-size: 14px;
+    font-weight: 900;
+    padding-top: 6px;
+}
+.btn button{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+}
+/*Recently added Ended!*/
+
+/* Section Properties*/
+.properties{
+    width: 100%;
+    /*padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre-properties{
+    padding: 50px 0px;
+    margin-left: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.second-card{
+    width: 60%;
+    height: 250px;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid #1877F2;
+    
+}
+.img-prop{
+    height: 100%;
+}
+.img-prop img{
+    height: 100%;
+}
+.house-container{
+    padding: 20px 20px 20px 0px;
+}
+.house-container h3 {
+    margin-left: 27px;
+}
+.property-info{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px 0px 0px;
+    font-size: 17px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 18px 0px 0px;
+    height: 30px;
+    width: 
+}
+.paragraph p {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+.buy-btn {
+    display: grid;
+    justify-content: space-between ;
+    padding: 16px;
+
+}
+.A{
+    padding: 8px 35px 8px 35px;
+    border-radius: 8px;
+    border : none;
+    background-color: #1DAEFF;
+    width: 120px;
+    margin: 5px;
+}
+.B{
+    padding: 8px 35px 8px 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1DAEFF;
+    margin: 5px;
+    width: 120px;
+}
+
+.more-button button{
+    border-radius: 8px;
+    font-weight: 700;
+    width: 170PX;
+    height: 40px;
+    border: none;
+    background-color: #1DAEFF;
+}
+/*Properties ended! */
+
+/* Blog page started */
+
+.first-blog-item{
+    border: #1DAEFF;
+    background-color: aqua;
+    padding: 0px 0px 0px 0px;
+    width: 500px;
+    padding: ;
+}
+
+.Row-blog {
+    width: 87%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Blog ended!*/
+
+/* section contact us home page started!*/
+
+.ContactUs-section{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.ContactUs-section img {
+    position: absolute; /* Position the image absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Cover the full width of the parent div */
+    height: 100%; /* Cover the full height of the parent div */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    z-index: -1; /* Send the image behind the text */
+}
+/* Contact us section ended!*/
+
+/* footer started! */
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 5rem 30px; 
+}
+footer .footer-cont {
+    width: 100%;
+    display: flex;
+    grid-template-columns: ;
+    grid-gap: 2rem;
+}
+.aboutus {
+    height: ;
+    width: 40%;
+
+}
+
+.socials{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 2rem);
+    
+}
+.socials {
+    list-style: none;
+}
+.socials li a {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+/* footer ended! */
